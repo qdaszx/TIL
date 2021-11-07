@@ -140,7 +140,7 @@ eval("var api = __webpack_require__(/*! ../node_modules/style-loader/dist/runtim
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _math_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./math.js */ \"./src/math.js\");\n/* harmony import */ var _app_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./app.css */ \"./src/app.css\");\n/* harmony import */ var _app_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_app_css__WEBPACK_IMPORTED_MODULE_1__);\n\n\n\nwindow.addEventListener('DOMContentLoaded', () => {\n  Object(_math_js__WEBPACK_IMPORTED_MODULE_0__[\"sum\"])(1, 2);\n  const el = document.querySelector('#app');\n  el.innerHTML = `\n    <h1>1 + 2 = ${Object(_math_js__WEBPACK_IMPORTED_MODULE_0__[\"sum\"])(1, 2)}</h1>\n  `\n})\n\n//# sourceURL=webpack:///./src/app.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _math_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./math.js */ \"./src/math.js\");\n/* harmony import */ var _app_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./app.css */ \"./src/app.css\");\n/* harmony import */ var _app_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_app_css__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _webpack_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./webpack.png */ \"./src/webpack.png\");\n\n\n\n\nwindow.addEventListener('DOMContentLoaded', () => {\n  Object(_math_js__WEBPACK_IMPORTED_MODULE_0__[\"sum\"])(1, 2);\n  const el = document.querySelector('#app');\n  el.innerHTML = `\n    <h1>1 + 2 = ${Object(_math_js__WEBPACK_IMPORTED_MODULE_0__[\"sum\"])(1, 2)}</h1>\n    <img src=\"${_webpack_png__WEBPACK_IMPORTED_MODULE_2__[\"default\"]}\" alt=\"webpackImage\" />\n  `\n})\n\n//# sourceURL=webpack:///./src/app.js?");
 
 /***/ }),
 
@@ -153,6 +153,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _mat
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"sum\", function() { return sum; });\nfunction sum(a, b) {\n  return (a + b);\n}\n\n//# sourceURL=webpack:///./src/math.js?");
+
+/***/ }),
+
+/***/ "./src/webpack.png":
+/*!*************************!*\
+  !*** ./src/webpack.png ***!
+  \*************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"../dist/8e8a3fd3be517e0bdf62bde2beadd058.png\");\n\n//# sourceURL=webpack:///./src/webpack.png?");
 
 /***/ })
 
