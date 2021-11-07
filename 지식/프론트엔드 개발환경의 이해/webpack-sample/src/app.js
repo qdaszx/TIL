@@ -1,4 +1,5 @@
 import { sum } from './math.js';
+import './app.css';
 
 window.addEventListener('DOMContentLoaded', () => {
   sum(1, 2);
