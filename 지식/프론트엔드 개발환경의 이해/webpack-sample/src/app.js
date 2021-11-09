@@ -10,3 +10,5 @@ window.addEventListener('DOMContentLoaded', () => {
     <img src="${webpackImage}" alt="webpackImage" />
   `
 })
+
+new Promise()
